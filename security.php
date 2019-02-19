@@ -43,5 +43,6 @@ $_SESSION['_token'] = bin2hex(random_bytes(16)); //or openssl_random_pseudo_byte
 
 10.User defined file includes
 
+11. File uploads???
 
 */
