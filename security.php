@@ -10,6 +10,7 @@
 
 4.XSS
 function e($value){
+$value = strip_tags($value);
 return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
 }
 
