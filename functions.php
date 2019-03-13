@@ -2,6 +2,9 @@ parse_url('https://www.biznet.ru/');
 filter_var('dfgd@mail.ru', FILTER_VALIDATE_EMAIL);
 usleep(2000000); // sleep for 2 seconds
 
+$strip = htmlspecialchars(strip_tags($_SERVER['REQUEST_URI'], ENT_QUOTES));
+
+
 function getRandomString($length = 10) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $string = '';
