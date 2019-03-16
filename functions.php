@@ -1,6 +1,7 @@
 parse_url('https://www.biznet.ru/');
 filter_var('dfgd@mail.ru', FILTER_VALIDATE_EMAIL);
 usleep(2000000); // sleep for 2 seconds
+array_map();
 
 $strip = htmlspecialchars(strip_tags($_SERVER['REQUEST_URI'], ENT_QUOTES));
 
