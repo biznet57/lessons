@@ -46,6 +46,8 @@ $_SESSION['_token'] = bin2hex(random_bytes(16)); //or openssl_random_pseudo_byte
 
 11. File uploads???
 
-12. Output escaping (htmlspecialchars)
+12. 
+Output escaping (htmlspecialchars)
+Form inputs validation: Ctype Functions, stripos, preg_match (нагрузка)
 
 */
