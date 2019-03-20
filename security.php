@@ -4,7 +4,7 @@
 
 1.SQL Injection
 
-2.Error reporting
+2.Error reporting off
 
 3.Include File extensions
 
@@ -45,5 +45,7 @@ $_SESSION['_token'] = bin2hex(random_bytes(16)); //or openssl_random_pseudo_byte
 10.User defined file includes
 
 11. File uploads???
+
+12. Output escaping (htmlspecialchars)
 
 */
