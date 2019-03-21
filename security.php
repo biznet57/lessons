@@ -47,7 +47,11 @@ $_SESSION['_token'] = bin2hex(random_bytes(16)); //or openssl_random_pseudo_byte
 11. File uploads???
 
 12. 
-Output escaping (htmlspecialchars)
+Output escaping:
+htmlentities($i, ENT_QUOTES, "UTF-8") - более ресурсоемкий, но работает без глюков с особенными буквами (напр.шведскими)
+htmlspecialchars($i, ENT_QUOTES, "UTF-8") - быстрее, но обрабатывает меньшее количество символов (всего 5: &,",<,> и ' при включенном флаге ENT_QUOTES)
+
 Form inputs validation: Ctype Functions, stripos, preg_match (нагрузка)
 
+Form fields atributes min, max, telephone?
 */
