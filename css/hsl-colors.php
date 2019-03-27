@@ -1,6 +1,6 @@
 <style>
   body {
-    background-color: #FFFFFF;
+    background: url('https://i.imgur.com/MJAkxbh.png');
   }
   
   .green {
