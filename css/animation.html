@@ -1,5 +1,5 @@
 <style>
-  div {
+  .div1 {
     height: 40px;
     width: 70%;
     background: black;
@@ -28,5 +28,75 @@
   
   
   
+  
+  
+    .div2 {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+  }
+
+#rect2 {
+  animation-name: rainbow;
+  animation-duration: 4s;
+  
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: blue;
+    top: 0px;
+    
+  }
+  50% {
+    background-color: green;
+    top: 50px;
+    
+  }
+  100% {
+    background-color: yellow;
+    top: 0px;
+    
+  }
+}
+  
+  
+  
+  
+  
+  
+  
+  
+    #ball {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto;
+    position: fixed;
+    left: 20%;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    animation-name: fade;
+    animation-duration: 7s;
+    animation-iteration-count: 3; /*  number or infinite  */
+  }
+  @keyframes fade {
+    50% {
+      left: 60%;
+      opacity: 0.1;
+      
+    }
+  }
+  
+  
+  
 </style>
-<div id="rect"></div>
+<div id="rect" class="div1"></div>
+<div id="rect2" class="div2"></div>
+<div id="ball"></div>
