@@ -58,5 +58,7 @@ Form fields atributes min, max, telephone?
 Session hijacking: session_regenerate_id() // сразу после старта сессии
 LogOut: $_SESSION = array(); cookie; session_destroy();
 Autoload: белый список подключаемых файловж
+Отключить опасные функции: eval(), exec(), system()
+php.ini: Отключить allow_url_include (обычно и так отключено)
 
 */
