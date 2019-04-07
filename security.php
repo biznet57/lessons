@@ -61,4 +61,12 @@ Autoload: белый список подключаемых файловж
 Отключить опасные функции: eval(), exec(), system()
 php.ini: Отключить allow_url_include (обычно и так отключено)
 
+PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT
+ini_set('session_name', 'sEcreTnAme') or session_name('sEcreTnAme') - before session_start()
+ini_set('date.timezone', 'Europe/London');
+ini_set('default_charset', 'UTF-8');
+acces-control - не давать простым пользователям доступа к администраторским инструментам. При админских операциях перепроверять права доступа пользователя запрашивающего операцию.
+MYSQL user - principal of least privileges (select, insert, update, delete)
+
+
 */
