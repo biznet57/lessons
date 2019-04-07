@@ -54,4 +54,9 @@ htmlspecialchars($i, ENT_QUOTES, "UTF-8") - быстрее, но обрабат�
 Form inputs validation: Ctype Functions, stripos, preg_match (нагрузка)
 
 Form fields atributes min, max, telephone?
+
+Session hijacking: session_regenerate_id() // сразу после старта сессии
+LogOut: $_SESSION = array(); cookie; session_destroy();
+Autoload: белый список подключаемых файловж
+
 */
