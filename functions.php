@@ -29,6 +29,7 @@ function translit($str) {
   echo translit("Всем привет! Ёпт");
 
                               
+  // Image class - https://github.com/claviska/SimpleImage                            
                               
                               
                               
