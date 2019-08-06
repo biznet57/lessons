@@ -48,3 +48,22 @@ function translit($s) {
   $s = str_replace(" ", "-", $s); // заменяем пробелы знаком минус
   return $s; // возвращаем результат
 }
+
+        
+        
+// Сортировка мульти-уровневого массива по полю  https://www.youtube.com/watch?v=dVmkJF8mK6E
+function my_sort($key){
+return function($a, $b) use ($key){
+        return $a[$key] <=> $b[$key];
+        };      
+}
+usort($array, mysort('fild_name'));
+        
+        
+        
+        
+        
+        
+        
+        
+        
